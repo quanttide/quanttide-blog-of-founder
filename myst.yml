@@ -1,0 +1,19 @@
+version: 1
+project:
+  title: 量潮创始人博客
+  description: 量潮创始人博客内容
+  keywords:
+    - 量潮科技
+    - 博客
+  authors:
+    - name: 量潮科技
+  github: https://github.com/quanttide/quanttide-blog-of-founder
+  license: Proprietary
+  exclude:
+    - CHANGELOG.md
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  options:
+    folders: true
